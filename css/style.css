@@ -93,7 +93,7 @@ input,
 button {
   margin: 0;
   padding: 0;
-  font: 16px 'PT Serif', 'STZhongsong', '华文中宋', 'Microsoft Yahei', serif;
+  font: 18px 'PT Serif', 'STZhongsong', '华文中宋', 'Microsoft Yahei', serif;
 }
 input::-moz-focus-inner,
 button::-moz-focus-inner {
@@ -114,7 +114,7 @@ body,
 }
 body {
   background: #fff;
-  font: 16px 'PT Serif', 'STZhongsong', '华文中宋', 'Microsoft Yahei', serif;
+  font: 18px 'PT Serif', 'STZhongsong', '华文中宋', 'Microsoft Yahei', serif;
   -webkit-text-size-adjust: 100%;
 }
 .outer {
@@ -277,7 +277,7 @@ a.article-title:hover,
   font-weight: bold;
 }
 #header {
-  font-size: 14px;
+  font-size: 18px;
   position: relative;
   border-bottom: 1px solid #ddd;
 }
@@ -288,6 +288,7 @@ a.article-title:hover,
 #header-outer {
   height: 100%;
   position: relative;
+  max-width: 960px;
 }
 #header-inner {
   position: relative;
@@ -516,7 +517,7 @@ a.article-title:hover,
   text-align: center;
 }
 .article-entry blockquote footer {
-  font-size: 16px;
+  font-size: 18px;
   margin: 1.4em 0;
   font-family: font-sans;
 }
@@ -562,8 +563,11 @@ a.article-title:hover,
   margin-top: 0;
 }
 .article-more-link a {
-  color: #939393;
-  border-bottom-color: #939393;
+  color: #00ab6b;
+  border-bottom-color: #00ab6b;
+}
+.article-more-link a:hover {
+  border-bottom-color: #00774a;
 }
 .article-footer {
   font-size: 0.85em;
@@ -812,7 +816,7 @@ a.article-title:hover,
   padding: 15px 0;
   overflow: auto;
   color: #fff;
-  line-height: 22.4px;
+  line-height: 25.2px;
 }
 .article-entry .highlight .gutter pre,
 .article-entry .gist .gist-file .gist-data .line-numbers {
@@ -872,7 +876,7 @@ a.article-title:hover,
   text-align: right;
 }
 .article-entry .highlight .line {
-  height: 22.4px;
+  height: 25.2px;
 }
 .article-entry .gist {
   margin: 0;
@@ -1089,7 +1093,7 @@ pre .php .xml {
 .fancybox-skin .fancybox-title .child {
   background: none;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 18px;
   font-family: 'PT Serif', 'STZhongsong', '华文中宋', 'Microsoft Yahei', serif;
   text-shadow: 1px 3px 3px rgba(0,0,0,0.5);
 }
