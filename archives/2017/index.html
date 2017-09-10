@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta property="og:type" content="website">
 <meta property="og:title" content="Plastic Lounge">
-<meta property="og:url" content="http://plasticlounge.com/archives/2017/index.html">
+<meta property="og:url" content="http://localhost:4000/archives/2017/index.html">
 <meta property="og:site_name" content="Plastic Lounge">
 <meta property="og:locale" content="en">
 <meta name="twitter:card" content="summary">
@@ -60,12 +60,15 @@ ga('send', 'pageview');
       </nav>
       <nav id="sub-nav">
         <div id="search-form-wrap">
-          <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://plasticlounge.com"></form>
+          <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://localhost:4000"></form>
         </div>
       </nav>
     </div>
   </div>
 </header>
+
+    
+
     <section id="main" class="outer">
       <section class="archives-wrap">
         <div class="archive-year-wrap">
@@ -104,6 +107,18 @@ ga('send', 'pageview');
   </div>
 </footer>
     
+<script>
+  var disqus_shortname = 'plastic-lounge';
+  
+  (function(){
+    var dsq = document.createElement('script');
+    dsq.type = 'text/javascript';
+    dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/count.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
+</script>
+
 
 <script src="/js/jquery.min.js"></script>
 

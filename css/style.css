@@ -118,7 +118,7 @@ body {
   -webkit-text-size-adjust: 100%;
 }
 .outer {
-  max-width: 800px;
+  max-width: 1000px;
   margin: 0 auto;
 }
 .outer:before,
@@ -705,6 +705,16 @@ a.article-title:hover,
   .article-toc {
     display: block;
   }
+}
+.post-header-cover,
+.featured-image {
+  height: 400px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
 }
 #comments {
   margin: 50px 0;
